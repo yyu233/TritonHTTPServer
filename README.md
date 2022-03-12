@@ -1,8 +1,3 @@
-# TritonHTTP
-
-## Spec Summary
-
-Here we provide a concise summary of the TritonHTTP spec. You should read the spec doc for more details and clarifications.
 
 ### HTTP Messages
 
@@ -136,11 +131,3 @@ cat test/testdata/requests/single/OKBasic.txt | nc localhost 8080
 
 You'll see the response printed out. And you could look at your server's logging to debug.
 
-## Submission
-
-Either submit through GitHub, or:
-```
-make submission
-```
-
-And upload the generated `submission.zip` file to Gradescope.
